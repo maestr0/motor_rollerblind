@@ -2,7 +2,7 @@
 local module = {}
 
 module.SSID = {}  
-module.SSID["your ssid here"] = "your wifi pw here"
+module.SSID["n00b"] = "myPasswordIsVerySecret!"
 
 -- example for local MQTT
 
@@ -14,13 +14,14 @@ module.SSID["your ssid here"] = "your wifi pw here"
 
 -- example for cloud MQTT
 
-module.MQHOST = "m20.cloudmqtt.com"
-module.MQPORT = your port here
+module.MQHOST = "192.168.0.6"
+module.MQPORT = 1883
 module.MQID = node.chipid()
-module.MQUSR = "you user id here"
-module.MQPW = "your pw here"
+module.MQUSR = ""
+module.MQPW = ""
+module.step_ms = 1
 
-module.MQTLS = 1 -- 0 = unsecured, 1 = TLS/SSL
+module.MQTLS = 0 -- 0 = unsecured, 1 = TLS/SSL
 
 module.ENDPOINT = "/house/masterbedroom/rollerblind/"
 module.ID = "0"

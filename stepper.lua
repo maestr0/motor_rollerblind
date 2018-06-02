@@ -24,7 +24,7 @@ step_states8 = {
 }
 step_states = step_states4 -- choose stepping mode
 step_numstates = 4 -- change to match number of rows in step_states
-step_delay = 10 -- choose speed
+step_delay = 1 -- choose speed
 step_state = 0 -- updated by step_take-function
 step_direction = 1 -- choose step direction -1, 1
 step_stepsleft = 0 -- number of steps to move, will de decremented
